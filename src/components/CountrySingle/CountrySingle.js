@@ -1,14 +1,13 @@
 import React from "react";
 import "./CountrySingle.css";
-let c = 0;
 const CountrySingle = (props) => {
-  console.log(props);
+  const { name, area, capital, flags } = props.country;
   return (
     <div className="country-single">
-      <h5>{++c / 2}</h5>
-      <h3>{props.name}</h3>
-      <p>Area : {props.area}</p>
-      <h4>Capital : {props.capital}</h4>
+      <h3>{name.common}</h3>
+      <img src={flags.png} alt="" />
+      <p>Area : {area}</p>
+      <h4>Capital : {capital}</h4>
     </div>
   );
 };
