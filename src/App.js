@@ -1,8 +1,9 @@
 import "./App.css";
+import Countries from "./components/Countries/Countries";
 function App() {
   return (
     <div className="App">
-      <h2>I am h2 from App.js</h2>
+      <Countries></Countries>
     </div>
   );
 }

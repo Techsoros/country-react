@@ -1,0 +1,7 @@
+.country-single{
+    min-width:350px;
+    padding:20px;
+    margin:30px;
+    border-radius: 20px;
+    border: 2px solid goldenrod;
+}
