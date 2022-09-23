@@ -1,15 +1,13 @@
-import logo from "./logo.svg";
 import "./App.css";
-import { useEffect, useState } from "react";
 function App() {
   return (
     <div className="App">
-      <h1>Visit the World</h1>
-      <LoadAPI></LoadAPI>
+      <h2>I am h2 from App.js</h2>
     </div>
   );
 }
 
+/*
 function LoadAPI() {
   const [countries, setCountries] = useState([]);
   useEffect(() => {
@@ -45,5 +43,5 @@ function Country(props) {
     </div>
   );
 }
-
+*/
 export default App;
