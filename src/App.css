@@ -43,11 +43,3 @@ h2{
   }
 }
 
-
-.country-card{
-    min-width:250px;
-    padding:30px;
-    margin:30px;
-    border-radius: 20px;
-    border: 2px solid goldenrod;
-}
