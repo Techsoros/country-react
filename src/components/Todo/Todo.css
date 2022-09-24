@@ -1,0 +1,15 @@
+.task{
+    display: grid;
+    grid-template-columns: 100px 1fr 80px;
+    margin:30px;
+    border-radius:13px;
+    align-items: center;
+    padding:20px;
+}
+.complete{
+    background-color: lightgreen;
+}
+.incomplete{
+    background-color: lightcoral;
+
+}
