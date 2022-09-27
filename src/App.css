@@ -37,21 +37,3 @@
     transform: rotate(360deg);
   }
 }
-
-.article-container{
-    margin:30px 10%;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 30px;
-}
-.blog{
-    box-shadow: 1px 0 10px -4px blueviolet;
-    padding-bottom: 20px;
-}
-article h2{
-    text-align: center;
-}
-article p{
-    text-align: justify;
-    margin:20px;
-}
