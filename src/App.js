@@ -1,9 +1,10 @@
 import "./App.css";
+import Products from "./components/Products/Products";
 
 function App() {
   return (
     <div className="App">
-      <h2>Mewo</h2>
+      <Products></Products>
     </div>
   );
 }
